@@ -1,0 +1,17 @@
+.fB { 
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--faceBook);
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+
+.fBIcon { 
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    border-radius: 2px;
+}

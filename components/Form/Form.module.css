@@ -1,0 +1,152 @@
+.formOuterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.form {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.fieldSet {
+    padding: 30px;  
+    border: 1px solid var(--light-gray);
+    max-width: 300px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+
+.fieldSet > legend {
+    box-sizing: border-box;
+    float: right;
+    margin-right: 60px;
+}
+
+
+
+
+.lineBreak { 
+    display: flex;
+    margin-top: 15px;
+}
+
+.lineText {
+    color: var(--orGray);
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+.forgotPassword { 
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--forgotPassword);
+    font-family: sans-serif;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.secondSet {
+    display: flex;
+    padding: 30px;
+    border: 1px solid var(--light-gray);
+    max-width: 300px;
+    width: 300px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+.dontHave {
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.signUP {
+    margin: auto;
+    color: var(--signUPBlue);
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.get {
+    margin: auto;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.apps {
+    margin: auto;
+    margin-top: 15px;
+    width: 300px;
+}
+
+/* iPhone XR */
+
+@media (max-width: 414px) and (max-height: 896px) { 
+    .fieldSet {
+        padding: 30px;
+        border: none;
+        max-width: 300px;
+        height: 350px;
+        margin: 0 auto;
+        margin-top: 10px;
+    
+
+    }
+
+    .secondSet {
+        display: flex;
+        padding: 30px;
+        border: none;
+        max-width: 300px;
+        width: 300px;
+        height: 15px;
+        margin: auto;
+        margin-top: 10px;
+        
+    }    
+}
+/* iPad Air */
+
+@media (min-width: 415px) and (max-width: 820px) and (max-height: 1180px) { 
+    .fieldSet {
+        padding: 30px;  
+        border: 1px solid var(--light-gray);
+        max-width: 300px;
+        height: 350px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .secondSet {
+        display: flex;
+        padding: 30px;
+        border: 1px solid var(--light-gray);
+        max-width: 300px;
+        width: 300px;
+        height: 15px;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+

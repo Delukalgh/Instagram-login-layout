@@ -1,0 +1,39 @@
+.firstName {
+    width: 50%;
+    display: inline-block;
+}
+
+.email {
+    width: 100%;
+    display: inline-block;
+}
+
+.firstNameInput {
+    width: 100%;
+    padding: 10px 10px;
+    border: 0;
+    border: 1px solid var(--light-gray);
+    background-color: rgb(250, 250, 250);
+    box-sizing: border-box;
+    margin-top: 25px; 
+    border-radius: 5px;
+}
+
+.firstNameInput:focus {
+    outline: none;
+}
+
+.emailInput:focus {
+    outline: none;
+}
+
+.emailInput {
+    width:100%;
+    padding: 10px 10px;
+    border: 0;
+    border: 1px solid var(--light-gray);
+    background-color: rgb(250, 250, 250);
+    box-sizing: border-box;
+    margin-top: 5px;
+    border-radius: 5px;
+}

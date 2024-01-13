@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 20vh;
+
+}
+
+
+
+@media (max-width: 414px) and (max-height: 896px) {
+  
+  .main {
+    padding-left: 20rem;
+  }
+}
